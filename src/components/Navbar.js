@@ -16,7 +16,7 @@ function Navbar({ totalItems }) {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick = {closeMobileMenu}>
-                        SMOKES <i className='fab fa-typo3' />
+                        PlushAholic <img className="name-icon" src={require('./assets/images/plushIcon.png').default} />
                     </Link>
                     <div className="menu-icon" onClick = {handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -25,11 +25,6 @@ function Navbar({ totalItems }) {
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick = {closeMobileMenu}>
                                 Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick = {closeMobileMenu}>
-                                Shop
                             </Link>
                         </li>
                         <li className='nav-item'>
