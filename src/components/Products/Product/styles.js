@@ -6,10 +6,11 @@ export default makeStyles(() => ({
     maxWidth: '100%',
   },
   media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
+    backgroundColor: '#eab676',
+    height: 260,
   },
   cardActions: {
+    backgroundColor: '#4a4a4a',
     display: 'flex',
     justifyContent: 'flex-end',
   },

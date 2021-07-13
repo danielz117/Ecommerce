@@ -5,6 +5,10 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.cart {
+  background-color: #ffedd8;
+}
+
 .home,
 .services,
 .products,

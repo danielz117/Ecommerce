@@ -12,7 +12,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   const renderEmptyCart = () => (
     <Typography variant="subtitle1">You have no items in your shopping cart,
-      <Link className={classes.link} to="/">start adding some</Link>!
+      <Link className={classes.link} to="/products">start adding some</Link>!
     </Typography>
   );
 
@@ -38,8 +38,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
   );
 
   return (
-    <Container>
-      <div className={classes.toolbar} />
+    <Container style={{backgroundColor:"#ffedd8", maxWidth: '100%', paddingLeft: '150px', paddingRight: '150px'}}>
       <Typography className={classes.title} variant="h3" gutterBottom>Your Shopping Cart</Typography>
       { !cart.line_items.length ? renderEmptyCart() : renderCart() }
     </Container>

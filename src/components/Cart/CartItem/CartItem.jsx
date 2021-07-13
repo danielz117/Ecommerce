@@ -16,7 +16,7 @@ const CartItem = ( {item, onUpdateCartQty, onRemoveFromCart} ) => {
                     {item.line_total.formatted_with_symbol}
                 </Typography>
             </CardContent>
-            <CardActions className={classes.cardActions}>
+            <CardActions style={{backgroundColor:"#eab676"}} className={classes.cardActions}>
                 <div className={classes.buttons}>
                     <Button type="button" size="small" onClick={()=> onUpdateCartQty(item.id, item.quantity-1)}>-</Button>
                     <Typography>{item.quantity}</Typography>

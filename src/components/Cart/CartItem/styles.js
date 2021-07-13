@@ -5,6 +5,7 @@ export default makeStyles(() => ({
     height: 260,
   },
   cardContent: {
+    backgroundColor: '#eab676',
     display: 'flex',
     justifyContent: 'space-between',
   },

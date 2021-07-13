@@ -47,8 +47,8 @@ function Cards() {
               price='$29.99'
             />
             <CardItem
-              src={require('./assets/images/lilyImage.png').default}
-              text='Lily'
+              src={require('./assets/images/christPusheen.png').default}
+              text='Christmas Pusheen'
               label='Small'
               path='/products'
               price='$29.99'
