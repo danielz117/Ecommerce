@@ -39,7 +39,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   return (
     <Container style={{backgroundColor:"#ffedd8", maxWidth: '100%', paddingLeft: '150px', paddingRight: '150px'}}>
-      <Typography className={classes.title} variant="h3" gutterBottom>Your Shopping Cart</Typography>
+      <Typography className={classes.title} variant="h2" gutterBottom>Your Shopping Cart</Typography>
       { !cart.line_items.length ? renderEmptyCart() : renderCart() }
     </Container>
   );
